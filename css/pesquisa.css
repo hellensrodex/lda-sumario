@@ -28,6 +28,10 @@
   transition: border 0.5s linear, background 0.5s linear;
 }
 
+.barra-busca:focus-visible{
+  outline:  3px solid var(--vermelho-padrao);
+}
+
 .barra-busca::placeholder {
   color: var(--cinza-secundario-inativo);
 }

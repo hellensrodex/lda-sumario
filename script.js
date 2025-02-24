@@ -123,6 +123,7 @@ function resetar() {
 }
 
 sumarioCaps.addEventListener("mouseover", resetar)
+sumarioCaps.addEventListener("keydown", resetar)
 
 
 resetar()
